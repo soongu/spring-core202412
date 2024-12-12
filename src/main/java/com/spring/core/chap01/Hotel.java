@@ -3,9 +3,9 @@ package com.spring.core.chap01;
 public class Hotel {
 
     // 레스토랑
-    private AsianRestaurant restaurant = new AsianRestaurant();
+    private Restaurant restaurant = new AsianRestaurant();
     // 헤드쉐프
-    private KimuraChef chef = new KimuraChef();
+    private Chef chef = new KimuraChef();
 
     // 레스토랑 예약 기능
     public void reserve() {

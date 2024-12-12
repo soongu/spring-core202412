@@ -1,6 +1,6 @@
 package com.spring.core.chap01;
 
-public class SushiCourse {
+public class SushiCourse implements Course {
 
     public void combineMenu() {
         System.out.println("====== 스시 코스 구성 ======");
