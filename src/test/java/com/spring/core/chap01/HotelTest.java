@@ -8,7 +8,11 @@ class HotelTest {
 
     @Test
     void hotel() {
-        Hotel hotel = new Hotel();
+//        Hotel hotel = new Hotel();
+
+        HotelManager manager = new HotelManager();
+        Hotel hotel = manager.hotel();
+
         hotel.reserve();
     }
 }
