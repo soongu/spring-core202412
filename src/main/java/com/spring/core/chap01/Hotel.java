@@ -12,6 +12,7 @@ public class Hotel {
         this.chef = chef;
     }
 
+
     // 레스토랑 예약 기능
     public void reserve() {
         System.out.println("레스토랑을 예약합니다.");
