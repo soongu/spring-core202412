@@ -18,10 +18,10 @@ public class CarConfig {
     // 자동차 만들때 엔진도 낑겨서 만들어줘라~ (DI)
     @Bean
     public Car car() {
-//        Car car = new Car(engine()); // 생성자 주입
+        Car car = new Car(engine()); // 생성자 주입
 
-        Car car = new Car();
-        car.setEngine(engine()); // setter 주입
+//        Car car = new Car();
+//        car.setEngine(engine()); // setter 주입
         return car;
     }
 
