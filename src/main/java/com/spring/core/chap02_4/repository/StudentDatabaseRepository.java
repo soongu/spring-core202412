@@ -4,7 +4,7 @@ import com.spring.core.chap02_4.model.Student;
 import org.springframework.stereotype.Component;
 
 // 학생 정보를 데이터베이스에서 조회
-@Component
+@Component("dbRepo")
 public class StudentDatabaseRepository implements StudentRepository {
 
     @Override
